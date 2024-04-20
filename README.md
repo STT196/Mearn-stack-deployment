@@ -7,7 +7,7 @@
 <ol>
   <li><strong>Build Docker Images:</strong> The workflow builds Docker images for the frontend, backend, and appew components of the MEARN stack application.</li>
    
-  <li><strong>Login to Docker Hub:</strong> It securely logs in to Docker Hub using provided credentials.</li>
+  <li><strong>Login to Docker Hub:</strong> It securely logs in to Docker Hub using provided credentials (DOCKER_USERNAME and DOCKER_PASSWORD).</li>
    
   <li><strong>Push Docker Images:</strong> After logging in, the workflow pushes the built Docker images for the frontend, backend, and appew components to Docker Hub, making them accessible for deployment.</li>
 
@@ -34,3 +34,26 @@
 
 <p>Both methods offer flexibility in deployment options. Method 1 leverages Docker Hub for image storage and distribution, while Method 2 provides a direct route for users who prefer not to use Docker Hub or who face constraints such as limited Docker Hub storage or privacy concerns.</p>
 
+<h2>Variable Descriptions:</h2>
+
+<ul>
+  <li><strong>DOCKER_USERNAME:</strong> The username used to authenticate with Docker Hub for pushing Docker images.</li>
+  
+  <li><strong>DOCKER_PASSWORD:</strong> The password used to authenticate with Docker Hub for pushing Docker images.</li>
+  
+  <li><strong>SERVER_HOST:</strong> The hostname or IP address of the deployment server.</li>
+  
+  <li><strong>SERVER_USERNAME:</strong> The username used to authenticate with the deployment server via SSH.</li>
+  
+  <li><strong>SERVER_PASSWORD:</strong> The password used to authenticate with the deployment server via SSH.</li>
+  
+  <li><strong>SERVER_PORT:</strong> The port number used for SSH connection to the deployment server.</li>
+  
+  <li><strong>SSH_PRIVATE_KEY:</strong> The private SSH key used to authenticate with the deployment server. This key should be kept secure and not shared publicly.</li>
+  
+  <li><strong>SERVER_USERNAME_ROOT:</strong> The username of the new user created specifically for running Docker on the server for security purposes.</li>
+  
+  <li><strong>SERVER_PASSWORD_ROOT:</strong> The password of the new user created specifically for running Docker on the server for security purposes.</li>
+  
+  <li><strong>SSH_PRIVATE_KEY_ROOT:</strong> The private SSH key of the new user created specifically for running Docker on the server. This key should be kept secure and not shared publicly.</li>
+</ul>
