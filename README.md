@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MEARN Stack Application Deployment Workflow</title>
-</head>
-<body>
-
 <h1>MEARN Stack Application Deployment Workflow</h1>
 
 <h2>Method 1: Docker Hub Deployment</h2>
@@ -43,5 +34,3 @@
 
 <p>Both methods offer flexibility in deployment options. Method 1 leverages Docker Hub for image storage and distribution, while Method 2 provides a direct route for users who prefer not to use Docker Hub or who face constraints such as limited Docker Hub storage or privacy concerns.</p>
 
-</body>
-</html>
