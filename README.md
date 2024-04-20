@@ -52,6 +52,3 @@
   <li><strong>SERVER_USERNAME_ROOT:</strong> The username of the new user created specifically for running Docker on the server for security purposes.</li>
   
   <li><strong>SERVER_PASSWORD_ROOT:</strong> The password of the new user created specifically for running Docker on the server for security purposes.</li>
-  
-  <li><strong>SSH_PRIVATE_KEY_ROOT:</strong> The private SSH key of the new user created specifically for running Docker on the server. This key should be kept secure and not shared publicly.</li>
-</ul>
