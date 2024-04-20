@@ -49,8 +49,6 @@
   
   <li><strong>SERVER_PORT:</strong> The port number used for SSH connection to the deployment server.</li>
   
-  <li><strong>SSH_PRIVATE_KEY:</strong> The private SSH key used to authenticate with the deployment server. This key should be kept secure and not shared publicly.</li>
-  
   <li><strong>SERVER_USERNAME_ROOT:</strong> The username of the new user created specifically for running Docker on the server for security purposes.</li>
   
   <li><strong>SERVER_PASSWORD_ROOT:</strong> The password of the new user created specifically for running Docker on the server for security purposes.</li>
