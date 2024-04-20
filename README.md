@@ -1,9 +1,10 @@
 <h1>MEARN Stack Application Deployment Workflow</h1>
 
-<h2>Method 1: Docker Hub Deployment</h2>
-
 <p><strong>This repository contains GitHub Actions workflows for deploying a MEARN (MongoDB, Express.js, Angular, React, Node.js) stack application. The workflows offer two deployment methods: one using Docker Hub for image storage and distribution, and the other deploying directly to the server without Docker Hub. These workflows provide flexibility and options for users based on their deployment preferences and constraints.</strong></p>
 </br></br>
+
+<h2>Method 1: Docker Hub Deployment</h2>
+
 <p><strong>Workflow Description:</strong></p>
 
 <ol>
